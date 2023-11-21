@@ -1,0 +1,14 @@
+/* p 代表HTML文件中的paragraph段落文字部分，也可以选择HTML中其他元素; {}里面填需要的样式属性，例如color, width or border*/
+p {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+  }
+/*定义多个元素的样式*/
+p,
+li,
+h1 {
+  color: red;
+}
+
+  

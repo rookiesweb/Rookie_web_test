@@ -1,0 +1,45 @@
+/* 定义整个网页的字体大小及样式 */
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+}
+/* 定义第一级标题的字体大小及位置 */
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+/* 定义段落及列表的字体大小，行高及间距 */  
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+/* 定义整个网页的背景颜色 */
+html {
+  background-color: #00539f;
+}
+/* 将主体内容放置于一个框架 */
+body {
+  width: 600px; /* 主体内容成600px */
+  margin: 0 auto; /* margin 是border与edge间的距离，0是上下的间距，auto是左右的间距，auto可自动根据情况调节，也可随便填充其余数值 */
+  background-color: #ff9500; /* 主体内容背景颜色 */
+  padding: 0 20px 20px 20px; /* 包围主体内容的背景填充部分， 上述四个数值分别对应上、右、下、左的间距*/
+  border: 5px solid black; /* 包围背景填充部分的边框叫border，可定义他的线宽、线条样式及颜色*/
+}
+
+h1 {
+  margin: 0; /* 消除一级标题与网页顶部的距离 */
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black; /* 设置字体阴影，上述四个值对应：（相对文本而言）阴影水平偏移量、垂直偏移量、阴影模糊程度（数值越大越模糊）、阴影颜色 */
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+  
